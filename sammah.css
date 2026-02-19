@@ -1,16 +1,16 @@
 
         body {
-            background-color: rgb(252, 252, 252);
-            color: #02a1fd;
+            background-color: rgb(232, 176, 154);
+            color: #5717ab;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: rgb(2, 180, 250);
-            color: #fcfcfc;
-            padding: 10px;
+            background-color: rgba(237, 208, 145, 0.788);
+            color: #2803f7;
+            padding: 18px;
             text-align: center;
         }
 
@@ -23,10 +23,10 @@
         }
 
         .device {
-            width: 300px;
+            width: 200px;
             margin: 10px;
             padding: 10px;
-            border: 1px solid #ddd;
+            border: 1px solid #4a2903;
             border-radius: 5px;
             text-align: center;
         }
@@ -69,3 +69,16 @@
         margin-bottom: 10px;
         text-align: center;
     }
+    
+
+    /* Style all p tags */
+p{
+    font-size: 18px;
+    color: blue;
+}
+
+a{
+    text-decoration: underline;
+    color: red;
+
+}
