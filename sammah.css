@@ -1,26 +1,44 @@
 
         body {
-            background-color: rgb(232, 176, 154);
-            color: #5717ab;
-            font-family: Arial, sans-serif;
+            background: url(working-tools-on-wooden-background-top-view-free-photo.jpg);
+            background-size: cover;
+            color: FFFDF1;
             margin: 0;
             padding: 0;
         }
 
-        header {
-            background-color: rgba(237, 208, 145, 0.788);
-            color: #2803f7;
+        header {;
+            background-color: rgb(183, 189, 247);
+            color: FFCE99;
             padding: 18px;
             text-align: center;
+            font-family: ;
+        }
+        .topnav{
+            color: FFCE99;
+            padding: 18px;
+            text-align: right;
         }
 
         section {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            box-shadow: 10px 10px 10px 10px rgb(0 0 0 / 20%);
+            box-shadow: 10px 10px 10px 10px rgb(0 0 0 / .5%);
             padding: 0px;
+            background: url(working-tools-on-wooden-background-top-view-free-photo.jpg);
+            background-size: cover;
+            height: fit-content;
+            display: flex;
+            justify-content: center;
         }
+        .box{
+            position: relative;
+            max-width: fit-content;
+            padding: 50px;
+            background: rgba(255,255,255,.2);
+        }
+        
 
         .device {
             width: 200px;
@@ -67,7 +85,8 @@
     h1 {
         font-size: 24px;
         margin-bottom: 10px;
-        text-align: center;
+        text-align: left;
+        display: block;
     }
     
 
@@ -82,3 +101,10 @@ a{
     color: red;
 
 }
+
+.product-info {
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}  
