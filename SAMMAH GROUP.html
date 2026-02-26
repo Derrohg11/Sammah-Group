@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>SAMMAH GROUP</title>
+       <link href="light-theme.css" rel="stylesheet"id="theme-link">
      <link rel="stylesheet" href="sammah.css">  
 </head>
 <body>
@@ -15,6 +16,18 @@
             <a class="active" href="#LOCATION">LOCATION</a>
             <a href="Contact information.html">CONTACT</a>
             <a href="#about">ABOUT</a>
+            <button class="btn-toggle">Switch to Dark Mode</button>
+            <script>
+      const btn = document.querySelector(".btn-toggle");
+      const theme = document.querySelector("#theme-link");
+      btn.addEventListener("click", function() {
+        if (theme.getAttribute("href") == "sammah.css") {
+          theme.href = "dark-theme.css";
+        } else {
+          theme.href = "sammah.css";
+        }
+      });
+    </script>
            <!-- <input type="text" placeholder="Search.."> -->
           </div>
     </header>
