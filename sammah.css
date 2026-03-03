@@ -1,6 +1,5 @@
 
         body {
-            background: url(working-tools-on-wooden-background-top-view-free-photo.jpg);
             background-size: cover;
             color: FFFDF1;
             margin: 0;
@@ -14,9 +13,14 @@
             text-align: center;
         }
         .topnav{
-            color: FFCE99;
-            padding: 18px;
-            text-align: right;
+            width: auto;
+            padding: 20px;
+            text-align: center;
+            display: block;
+            border: 1px solid #ccc;
+            margin: 20px;
+            font-family: sans-serif;
+                        
         }
 
         section {
@@ -25,7 +29,6 @@
             justify-content: center;
             box-shadow: 10px 10px 10px 10px rgb(0 0 0 / .5%);
             padding: 0px;
-            background: url(working-tools-on-wooden-background-top-view-free-photo.jpg);
             background-size: cover;
             height: fit-content;
             display: flex;
